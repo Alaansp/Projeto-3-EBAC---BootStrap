@@ -1,0 +1,60 @@
+body {font-family: "Libertinus Math", system-ui;
+}
+
+.navbar {
+    background-color: #4f241a;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #4f241a;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-deuses-indigenas .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.section-title {
+    font-family: "Libertinus Mono", monospace;
+}
+
+#sobre-nos, #deuses-indigenas {
+    background-color: #ffeae6;
+}
+
+.text-colored {
+        color: #e15f41;
+}
+
+.nav-deuses-indigenas .nav-link.active,
+#fale-conosco button  {
+    background-color: #4f241a;
+    color: #fff;
+}
+
+.nav-deuses-indigenas .nav-link:hover {
+    color: #e15f41;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width:767px) {
+    .carousel-iten img,
+    .tab-pane img {
+        height: 280px;
+    }
+}
